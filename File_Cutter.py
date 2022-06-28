@@ -1,7 +1,7 @@
 import pandas as pd,ftplib,requests,os
 
-df = pd.read_csv('C:/Users/tarmcleod/Downloads/Medallia_Cases_Master.csv')
-path = 'C:/Users/tarmcleod/Downloads/Medallia_Chunks/chunk{}.csv'
+df = pd.read_csv('')
+path = 'C:/Users/.../chunk{}.csv'
 file_size = df.memory_usage(index=True, deep=False).sum() / 1048576
 print(file_size)
 
